@@ -24,7 +24,7 @@ Training a CNN from scratch on medical images requires millions of samples. Inst
 
 ### Training Details
 - **Framework:** PyTorch
-- **Optimizer:** Adam (lr=0.001)
+- **Optimizer:** Adam (learning ratio = 0.001)
 - **Loss:** CrossEntropyLoss
 - **Epochs:** 5
 - **Augmentation:** Random horizontal flip, random rotation (±10°)
